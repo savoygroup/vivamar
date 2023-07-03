@@ -319,6 +319,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .container{
 	max-width:1140px;
+	height:auto;
 }
 .img-style{
 	width:157px;
@@ -330,7 +331,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-style:solid;
 	border-color:var(--swatch-var-6037)!important;
 	width:33%;
-	font-family:"Lato";
+	font-family:"Helvetica";
 	font-weight:700;
 }
 .btn-style1:hover{
@@ -463,7 +464,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		border-width:1px 1px 1px 1px;
 		color:var(--swatch-var-6037)!important;
 		width:33%;
-		font-family:"Lato";
+		font-family:"Helvetica";
 		font-weight:700;
 		background-color:var(--swatch-var-5465);
 	}
@@ -487,6 +488,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		left:0px;
 		bottom:0px;
 	}
+	.btn-style1{
+		font-family:"Helvetica";
+	}
 	
 }
 
@@ -505,18 +509,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		border-width:1px 1px 1px 1px;
 		border-radius:7px 7px 7px 7px;
 		width:50%;
-		font-family:"Lato";
+		font-family:"Helvetica";
 		font-weight:700;
 	}
 	.container{
-		position:relative;
-		height:auto;
 	}
 	.footer{
 		position:fixed;
-		left:0px;
-		bottom:0px;
-		width:100%;
+		display:flex;
 	}
 	
 }
