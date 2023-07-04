@@ -50,6 +50,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Sizes */
 
+.bloc-md{
+	padding:50px 20px;
+}
 .bloc-sm{
 	padding:20px;
 }
